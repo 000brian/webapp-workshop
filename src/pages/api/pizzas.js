@@ -1,5 +1,6 @@
 export default function handler(req, res) {
     res.status(200).json({
+        // json is key value pairs
         pizzas: [
             {
                 id: 1,
